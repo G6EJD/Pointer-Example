@@ -19,7 +19,7 @@ void setup() {
 
 void loop() {
   int Total_Score;
-  Total_Score = 1;
+  Total_Score = 7;
   totalise(1, 2, &Total_Score);
   Serial.println("Total is now: "+String(Total_Score));
   delay(5000);
